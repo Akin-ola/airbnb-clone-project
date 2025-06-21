@@ -48,3 +48,35 @@ Database Design
     Reviews: Reviews will have fields such as name, comment, date.
 
     Payments: Payment will have fields such as name, details, address e.t.c.
+
+API Security
+
+    API security is the practice of protecting application programming interfaces (APIs) from cyberattacks and data breaches. It involves implementing measures to ensure that only authorized users can access and utilize APIs, and that the data transmitted through them is protected from unauthorized access or modification. Effective API security is crucial because APIs are often the entry points for sensitive data and functionality within applications. 
+
+    Why is API security important?
+
+    Data Protection:
+    APIs handle sensitive data like user information, financial records, and other critical assets. Securing APIs is essential to prevent data breaches and leaks. 
+    Service Availability:
+    APIs are often the backbone of applications and systems. Protecting them from attacks like denial-of-service (DoS) ensures their availability and prevents disruptions to services. 
+    Preventing Exploits:
+    API vulnerabilities can be exploited to gain unauthorized access, manipulate data, or disrupt services. Robust security practices help mitigate these risks. 
+
+    Key Aspects of API Security:
+
+    Authentication:
+    Verifying the identity of the user or application making the API request. 
+    Authorization:
+    Determining what resources the authenticated user or application is permitted to access. 
+    Data Protection:
+    Encrypting data in transit (e.g., using HTTPS) and at rest to prevent unauthorized access or modification. 
+    Input Validation:
+    Ensuring that all data received through API requests is valid and safe, preventing injection attacks. 
+    Rate Limiting:
+    Implementing mechanisms to limit the number of requests from a specific user or application, preventing abuse and denial-of-service attacks. 
+    Monitoring and Logging:
+    Continuously monitoring API traffic for suspicious activity and logging events for analysis and investigation. 
+    Regular Security Audits:
+    Periodically assessing the API's security posture to identify and address vulnerabilities. 
+    API Gateways:
+    Utilizing API gateways to manage and secure API traffic, enforcing security policies, and providing centralized control. 
