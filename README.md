@@ -37,4 +37,14 @@ Team Roles
     QA Engineer:
     Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
+Database Design
 
+    Users: The user will have field such as name, id, age, and address. User will have one to many relationship with properties i.e a user can have multiple properties while a property can only be own by a user at a time.
+
+    Properties: Property will have field such as description, location, price, availability. It will have a many to many relationship with bookings and also with reviews.
+
+    Bookings: Booking will have a user field (a foreign key to User entity), date, payment status.
+
+    Reviews: Reviews will have fields such as name, comment, date.
+
+    Payments: Payment will have fields such as name, details, address e.t.c.
