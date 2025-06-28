@@ -66,3 +66,4 @@ Entities Relationships
     Property to Booking - many to many
     Property to Review - many to many
     Booking to Payment - one to one
+    
